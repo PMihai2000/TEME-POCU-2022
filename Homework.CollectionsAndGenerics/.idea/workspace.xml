@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8190f52-b9c7-4838-92db-869e5f8eabaa" name="Changes" comment="- CountPalindromesNumbersStrategy: added conversion to lower case String">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C3g58ut3TtTlkCAk9HeccxdnkF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Practica/Ziua4- Control Flow/PotolincaMihai.threads.MutexSolution"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Generics.Main">
+    <configuration name="Generics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Main" />
+      <module name="Homework.CollectionsAndGenerics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.Example1.Media.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Main" />
+      <module name="Homework.CollectionsAndGenerics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.Objects.Student" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Generics.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8190f52-b9c7-4838-92db-869e5f8eabaa" name="Changes" comment="" />
+      <created>1658036505452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658036505452</updated>
+    </task>
+    <task id="LOCAL-00001" summary="- Collections Homework : Done">
+      <created>1658048103656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658048103656</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Generics Homework: Example1 Done">
+      <created>1658051976884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658051976884</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Generics Homework: Example2 Done">
+      <created>1658065717540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658065717540</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Generics Homework: Example2 Done&#10;- CountPalindromesNumbersStrategy: added conversion to lower case String">
+      <created>1658065814511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658065814511</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- CountPalindromesNumbersStrategy: added conversion to lower case String">
+      <created>1658065830065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658065830065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Collections Homework : Done" />
+    <MESSAGE value="- Generics Homework: Example1 Done" />
+    <MESSAGE value="- Generics Homework: Example2 Done" />
+    <MESSAGE value="- Generics Homework: Example2 Done&#10;- CountPalindromesNumbersStrategy: added conversion to lower case String" />
+    <MESSAGE value="- CountPalindromesNumbersStrategy: added conversion to lower case String" />
+    <option name="LAST_COMMIT_MESSAGE" value="- CountPalindromesNumbersStrategy: added conversion to lower case String" />
+  </component>
+</project>

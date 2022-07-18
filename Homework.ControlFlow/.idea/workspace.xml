@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a86e962f-4d9a-48fc-9f82-a0520f08f764" name="Changes" comment="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done&#10;- Threads Homework : Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BvTplqtidot12Uhyfp6om6zEok" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Threads.Main">
+    <configuration name="Exceptions.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptions.Main" />
+      <module name="Homework.ControlFlow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlowControl.Main" />
+      <module name="Homework.ControlFlow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FlowControl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Threads.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.Main" />
+      <module name="Homework.ControlFlow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads.Product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Threads.Main" />
+        <item itemvalue="Application.Exceptions.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a86e962f-4d9a-48fc-9f82-a0520f08f764" name="Changes" comment="" />
+      <created>1657785765656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657785765656</updated>
+    </task>
+    <task id="LOCAL-00001" summary="- Flow Control Homeword- Done">
+      <created>1657789036268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657789036268</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Flow Control Homeword- Done">
+      <created>1657789424014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657789424014</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done">
+      <created>1657866717161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657866717161</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done&#10;- Threads Homework : Done">
+      <created>1657898101431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657898101431</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done&#10;- Threads Homework : Done">
+      <created>1657898381346</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657898381346</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done&#10;- Threads Homework : Done">
+      <created>1657898759634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657898759635</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Flow Control Homeword- Done" />
+    <MESSAGE value="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done" />
+    <MESSAGE value="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done&#10;- Threads Homework : Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Flow Control Homeword: Done&#10;- Exceptions Homework : Done&#10;- Threads Homework : Done" />
+  </component>
+</project>
