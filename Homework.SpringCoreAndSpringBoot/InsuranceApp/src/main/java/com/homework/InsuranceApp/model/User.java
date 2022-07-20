@@ -13,4 +13,10 @@ public class User {
     private String firstname;
     @PhoneNumberConstraint
     private String phoneNumber;
+
+    public User(String lastname, String firstname, String phoneNumber) {
+        this.lastname = lastname;
+        this.firstname = firstname;
+        this.phoneNumber = phoneNumber;
+    }
 }

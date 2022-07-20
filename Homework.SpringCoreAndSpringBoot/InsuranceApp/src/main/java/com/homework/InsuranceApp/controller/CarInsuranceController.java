@@ -9,15 +9,16 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @RestController
-@RequestMapping("/api/insurances/")
+@RequestMapping("/api/insurances/cars")
 @RequiredArgsConstructor
 public class CarInsuranceController {
     private final InsuranceService insuranceService;
 
-    @PostMapping("cars")
+    @PostMapping
     public Insurance createCarInsurance(@Valid @RequestBody CarInsurance insurance){return insuranceService.createInsurance(insurance);}
-    @GetMapping("car")
+    @GetMapping
     public double getCarInsurancePrice(@Valid @RequestBody CarInsurance insurance){return insuranceService.getInsurancePrice(insurance);}
 }

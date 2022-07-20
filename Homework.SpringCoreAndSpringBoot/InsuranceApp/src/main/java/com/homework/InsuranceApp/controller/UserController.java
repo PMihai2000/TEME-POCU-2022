@@ -4,12 +4,10 @@ import com.homework.InsuranceApp.model.User;
 import com.homework.InsuranceApp.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
@@ -19,4 +17,8 @@ public class UserController {
 
     @PostMapping
     public User createUser(@Valid @RequestBody User user){return userService.createUser(user);}
+    @GetMapping
+    public List<User> getUsers(){
+        return userService.findAll();
+    }
 }
