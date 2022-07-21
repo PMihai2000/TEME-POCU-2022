@@ -46,7 +46,7 @@ public class ControllerAspect {
         }
     }
 
-    @Around("execution(public double getInsurancePrice(..))")
+    @Around("execution(public double getHouseInsurancePrice(..)) || execution(public double getCarInsurancePrice(..))")
     public Object logInsurancePrice(ProceedingJoinPoint proceedingJoinPoint){
         log.info("Insurance price calculator method invoiced: "+proceedingJoinPoint.getSignature().getName());
 

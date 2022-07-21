@@ -1,11 +1,8 @@
 package com.homework.InsuranceApp.service;
 
-import com.homework.InsuranceApp.model.CarInsurance;
-import com.homework.InsuranceApp.model.HouseInsurance;
 import com.homework.InsuranceApp.model.User;
 import com.homework.InsuranceApp.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -26,12 +23,13 @@ public class UserService{
         userRepository.save(user3);
     }
     public List<User> findAll(){return userRepository.findAll();}
+    public User getUserById(long id){return userRepository.get(id);}
     public User createUser(User user){
         return userRepository.save(user);
     }
 
-    public User removeUser(User user){
-        return userRepository.remove(user);
+    public User removeUserById(long id){
+        return userRepository.remove(id);
     }
 
 }

@@ -1,6 +1,14 @@
 package com.homework.InsuranceApp.model.interfaces;
 
-public interface Insurance {
+import javax.persistence.Id;
 
-    public double getPrice();
+public abstract class Insurance {
+    @Id
+    protected long id;
+
+    public long getId() {
+        return id;
+    }
+
+    public double getPrice() {return 0.0f;}
 }

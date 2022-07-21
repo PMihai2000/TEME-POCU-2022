@@ -1,5 +1,6 @@
 package com.homework.InsuranceApp.controller;
 
+import com.homework.InsuranceApp.model.CarInsurance;
 import com.homework.InsuranceApp.model.HouseInsurance;
 import com.homework.InsuranceApp.model.interfaces.Insurance;
 import com.homework.InsuranceApp.service.InsuranceService;
@@ -14,9 +15,12 @@ import javax.validation.Valid;
 public class HouseInsuranceController {
     private final InsuranceService insuranceService;
 
-    @PostMapping
+    @PostMapping("/create")
     public Insurance createHouseInsurance(@Valid @RequestBody HouseInsurance insurance){return insuranceService.createInsurance(insurance);}
-    @GetMapping
-    public double getHouseInsurancePrice(@Valid @RequestBody String index){
-        return insuranceService.getInsurancePrice(Integer.parseInt(index));}
+
+    @GetMapping("/insurancePrice")
+    public double getHouseInsurancePrice(@Valid @RequestBody HouseInsurance insurance){return insuranceService.getInsurancePrice(insurance);}
+    @GetMapping("/insurancePrice/{id}")
+    public double getHouseInsurancePriceById(@PathVariable long id){
+        return insuranceService.getInsurancePriceById(id);}
 }
