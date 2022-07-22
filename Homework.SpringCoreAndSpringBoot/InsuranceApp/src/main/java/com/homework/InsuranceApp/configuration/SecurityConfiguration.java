@@ -15,8 +15,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
+import java.net.PasswordAuthentication;
 import java.util.List;
-
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
@@ -47,7 +47,6 @@ public class SecurityConfiguration {
                 .httpBasic();
         return httpSecurity.build();
     }
-
     @Bean
     UserDetailsService userDetailsService(){
         var userDetailsManager = new InMemoryUserDetailsManager();
@@ -56,18 +55,13 @@ public class SecurityConfiguration {
 
         for (var user:
              users) {
-
+            UserDetails userDetails = User.withUsername(user.getUsername())
+                    .roles("dev")
+                    .password("insurances2022")
+                    .authorities("create","view","delete")
+                    .build();
+            userDetailsManager.createUser(userDetails);
         }
-
-
-        UserDetails user = User.withUsername("Baraca")
-                .roles("dev")
-                .password("123")
-                .authorities("create","nope","delete")
-                .build();
-
-        userDetailsManager.createUser(user);
-
 
         return userDetailsManager;
     }

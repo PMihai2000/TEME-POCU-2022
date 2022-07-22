@@ -1,5 +1,6 @@
 package com.homework.InsuranceApp.service;
 
+import com.homework.InsuranceApp.configuration.SecurityConfiguration;
 import com.homework.InsuranceApp.model.User;
 import com.homework.InsuranceApp.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -14,7 +15,7 @@ public class UserService{
     private final UserRepository userRepository;
     @PostConstruct
     private void postConstruct(){
-        User user1 = new User("Jhoe","Manebi","0756436657");
+        User user1 = new User("Jon","Manebi","0756436657");
         User user2 = new User("Alegi","Marta","0747474565");
         User user3 = new User("Alfred","Julien","0734857713");
 

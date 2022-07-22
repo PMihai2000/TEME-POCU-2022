@@ -7,6 +7,7 @@ import lombok.ToString;
 
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
+import java.util.Locale;
 import java.util.Objects;
 
 @Data
@@ -22,6 +23,10 @@ public class User {
     private String firstname;
     @PhoneNumberConstraint
     private String phoneNumber;
+
+    public String getUsername(){
+        return firstname.toLowerCase()+"."+lastname.toLowerCase();
+    }
 
     public User(String lastname, String firstname, String phoneNumber) {
         this.id = USER_ID++;
@@ -42,5 +47,6 @@ public class User {
     public int hashCode() {
         return Objects.hash(id);
     }
+
 
 }
