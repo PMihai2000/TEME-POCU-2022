@@ -1,0 +1,113 @@
+:root {
+  --form-border-radius: 10px;
+  --text-color: rgba(104 104 104);
+  --input-inner-color: rgb(226, 226, 226);
+  --button-color: blue;
+  --button-text-color: white;
+}
+html {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body,
+#form-title,
+form {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+#form-title {
+  border-top-left-radius: var(--form-border-radius);
+  border-top-right-radius: var(--form-border-radius);
+}
+
+body,
+form {
+  border-bottom-left-radius: var(--form-border-radius);
+  border-bottom-right-radius: var(--form-border-radius);
+}
+
+body {
+  background-color: darkblue;
+  width: 35vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  font-family: "Roboto";
+  box-shadow: 0px 0px 15px 0px;
+}
+
+#form-title {
+  background-image: url("/Assets/img/Preview_PIC.jpg");
+  color: white;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+form {
+  background-color: white;
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+label,
+div.tos {
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+label {
+  color: var(--text-color);
+}
+input:not([type="checkbox"]) {
+  display: flex;
+  align-self: center;
+  width: 89%;
+  height: 7%;
+  border: 0;
+  background-color: var(--input-inner-color);
+  border-radius: 5px;
+}
+input:not([type="checkbox"]):hover,
+input:not([type="checkbox"]):focus-within {
+  border: 2px solid blue;
+}
+
+div.tos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+input[type="checkbox"] {
+  display: flex;
+  align-self: center;
+}
+a {
+  color: blue;
+}
+
+button[type="submit"] {
+  width: 40%;
+  height: 10%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  margin-bottom: 5%;
+}
