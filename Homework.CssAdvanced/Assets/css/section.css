@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div {
+  height: 240px;
+  width: 300px;
+  margin-top: 48px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-top: 4px solid #e44f0e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+div > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}

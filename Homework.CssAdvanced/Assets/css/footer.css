@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  height: 61px;
+  width: 768px;
+  left: 0px;
+  top: 1019px;
+  border-radius: 0px;
+}
+ul.ul-footer {
+  padding: 0;
+}
+footer ul {
+  width: 30%;
+}
+
+@media screen and (max-device-width: 768px) and (max-device-height: 1080px) {
+  ul.ul-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+  }
+  footer ul {
+    width: 40%;
+  }
+}

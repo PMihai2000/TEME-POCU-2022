@@ -1,0 +1,17 @@
+img.logo {
+  height: 72px;
+  left: 26.143775939941406px;
+  top: 0px;
+  border-radius: 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 15px 0px 15px;
+}
+li.selected,
+li.selected > a {
+  font-weight: 700;
+  color: #e44f0e;
+  text-decoration: none;
+}
