@@ -21,6 +21,6 @@ header {
 @media screen and (max-device-width: 768px) and (max-device-height: 1080px) {
   header {
     justify-content: flex-start !important;
-    margin-left: 50px;
+    margin-left: 0;
   }
 }
