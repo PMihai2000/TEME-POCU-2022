@@ -1,14 +1,21 @@
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 header > p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
+}
+header {
+  padding-left: 48px;
+}
+
+@media screen and (min-device-width: 769px) and (min-device-height: 1081px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-device-width: 768px) and (max-device-height: 1080px) {

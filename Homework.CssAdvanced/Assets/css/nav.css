@@ -15,3 +15,15 @@ li.selected > a {
   color: #e44f0e;
   text-decoration: none;
 }
+@media screen and (min-device-width: 769px) and (min-device-height: 1081px) {
+  .nav__ul {
+    width: 40%;
+  }
+}
+
+@media screen and (max-device-width: 768px) and (max-device-height: 1080px) {
+  .nav__ul {
+    width: 50%;
+    margin-right: 48px;
+  }
+}

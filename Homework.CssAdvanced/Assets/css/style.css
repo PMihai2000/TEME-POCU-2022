@@ -3,15 +3,17 @@
 @import url("./section.css");
 @import url("./footer.css");
 
+html,
 header,
 nav,
 section,
 footer {
-  width: 100vw;
+  width: 99vw;
 }
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 ul {
@@ -20,7 +22,7 @@ ul {
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
-  width: 50%;
+  width: 40%;
 }
 li {
   font-family: "Inter";
