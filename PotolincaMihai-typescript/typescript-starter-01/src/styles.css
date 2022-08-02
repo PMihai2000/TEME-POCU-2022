@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid gray;
+  padding: 1%;
+  background-color: rgb(246, 230, 230);
+}
+
+#app-div-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 3%;
+}
+#app-div-input > input {
+  margin-right: 5%;
+  margin-left: 2%;
+}
+
+table {
+  width: 45vw;
+}
+table,
+thead,
+th,
+tr {
+  border: 2px solid black;
+}
+#table-students-promoted > tr > td {
+  border: 2px solid rgb(13, 128, 128);
+}
+#table-students-unpromoted > tr > td {
+  border: 2px solid rgb(131, 36, 19);
+}
+
+table#table-students-promoted {
+  background-color: aqua;
+}
+#table-students-promoted * {
+  background-color: aquamarine;
+}
+table#table-students-unpromoted {
+  background-color: rgb(255, 74, 42);
+}
+#table-students-unpromoted * {
+  background-color: tomato;
+}
