@@ -1,0 +1,15 @@
+div,
+hr {
+  width: 45vw;
+}
+
+.ul-passed-students,
+.ul-failed-students {
+  border: 2px dashed black;
+  padding: 10px;
+}
+hr {
+  border: 3px dashed black;
+  margin-left: 0;
+  margin-right: 0;
+}

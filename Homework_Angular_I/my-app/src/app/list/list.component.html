@@ -1,0 +1,14 @@
+<div class="ul-passed-students">
+  <p>{{ titleList }}</p>
+  <hr />
+  <ul>
+    <li *ngFor="let student of data">
+      {{ student.lastname }} {{ student.firstname }}
+      {{ student.gradeAvg | number: "1.0-2" }}
+    </li>
+  </ul>
+  <br /><br />
+</div>
+
+<hr />
+<button (click)="addStudent()">Add student</button>

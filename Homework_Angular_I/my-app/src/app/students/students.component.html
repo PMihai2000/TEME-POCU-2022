@@ -1,0 +1,13 @@
+<h1>Students</h1>
+<div>
+  <app-list
+    [titleList]="titlePassedStudents"
+    [data]="passedStudentsList"
+    (generate)="addPassedStudent()"
+  ></app-list>
+  <app-list
+    [titleList]="titleRejectedStudents"
+    [data]="rejectedStudentsList"
+    (generate)="addRejectedStudent()"
+  ></app-list>
+</div>
