@@ -1,0 +1,23 @@
+div {
+  width: 175px;
+  height: 250px;
+  background-color: black;
+  color: orange;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+}
+
+button {
+  background-color: black;
+  color: orange;
+  border: 1px dashed yellow;
+}
+
+button:active {
+  background-color: rgb(65, 65, 65);
+}
+button:hover {
+  cursor: pointer;
+}

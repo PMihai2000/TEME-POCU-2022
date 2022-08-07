@@ -1,0 +1,12 @@
+<form [formGroup]="userForm" (ngSubmit)="submitData()">
+  <label for="nume">Nume</label
+  ><input id="nume" type="text" formControlName="nume" />
+  <label for="prenume">Prenume</label
+  ><input id="prenume" type="text" formControlName="prenume" />
+  <label for="varsta">Varsta</label
+  ><input id="varsta" type="number" formControlName="varsta" />
+  <br />
+  <br />
+  <button type="submit">Save</button
+  ><button (click)="cancelRequest()">Cancel</button>
+</form>

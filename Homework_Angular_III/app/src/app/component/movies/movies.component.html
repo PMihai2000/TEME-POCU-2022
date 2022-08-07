@@ -1,0 +1,10 @@
+<h1>StarWars Movies</h1>
+<div id="movies">
+  <div *ngFor="let movie of movies">
+    <app-movie
+      [title]="movie.title"
+      [description]="movie.description"
+      [episodeId]="movie.episodeId"
+    ></app-movie>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Nume</th>
+        <th>Prenume</th>
+        <th>Varsta</th>
+      </tr>
+      <tr *ngFor="let user of users">
+        <td [hidden]="true">{{ user.id }}</td>
+        <td>{{ user.nume }}</td>
+        <td>{{ user.prenume }}</td>
+        <td>{{ user.varsta }}</td>
+        <td>
+          <button (click)="editUser($event)">Edit user</button>
+        </td>
+        <td><button (click)="deleteUser($event)">Delete</button></td>
+      </tr>
+    </thead>
+  </table>
+  <hr />
+  <button (click)="addNewUser($event)">Add new user</button>
+</div>
