@@ -50,9 +50,7 @@ function loadUsers() {
 }
 
 function clearUsers() {
-  while (ul.firstChild) {
-    ul.removeChild(ul.firstChild);
-  }
+  ul.innerHTML = ``;
 }
 
 function createLi(user) {
